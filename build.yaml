@@ -1,6 +1,7 @@
 format_version: 3
 pipelines:
   build:
+    group: sample
     environment_variables:
     materials:
       git:
