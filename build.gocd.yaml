@@ -19,7 +19,7 @@ pipelines:
         jobs:
           build_image:
             timeout: 0
-            elastic_profile_id: my
+            elastic_profile_id: dind-my
             tasks:
             - exec:
                 arguments:
